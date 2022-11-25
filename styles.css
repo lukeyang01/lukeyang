@@ -4,6 +4,8 @@ body {
     text-align: left;
 }
 .header{
+    padding-left: 30px;
+    vertical-align: top;
     float: left;
     position: sticky;
 }
