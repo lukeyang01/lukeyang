@@ -4,5 +4,15 @@ body {
     text-align: left;
 }
 .header{
-    display: inline-block;
+    float: left;
+    position: sticky;
+}
+.links{
+    float: right;
+    padding-right: 50px;
+    padding-top: 20px;
+    display: grid;
+    grid-auto-flow: column;
+    grid-column-gap: 30px;
+    vertical-align: top;
 }
