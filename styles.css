@@ -1,5 +1,8 @@
 body {
     margin: 0;
-    background: whitesmoke;
+    background: gainsboro;
     text-align: left;
+}
+.header{
+    display: inline-block;
 }
