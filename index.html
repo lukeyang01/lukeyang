@@ -1,43 +1,81 @@
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="A personal website hosted for Luke Yang">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A personal website hosted for Luke Yang"
+    />
+    <meta name="author" content="Luke Yang" />
     <title>Home | Luke Yang</title>
-    <link rel="shortcut icon" type="image/jpg" href="good-icon.webp"/>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <!-- HEADER -->
-    <div style="height:300px; background-color:beige;padding-left: 20px; padding-top: 20px; text-align:left; background-size:cover;">
-        <div class="header"> 
-            <img src="profile.jpeg" style="height:200px; border-radius: 0%; border: 5px solid cornflowerblue;" alt="Profile picture">
-        </div>
-        <div class="header">
-            <h1 style="font-size:50px;color:black;margin-top: 15">Luke Yang</h1>
-            <div class="info" style="line-height: 0.3">
-                <p>48780 Freestone Dr, </p>
-                <p>Northville Michigan 48168</p>
-                <p><a href="tel:2485088451">+1 (248) 508-8451</a></p>
-                <p><a href="mailto:lukeyang@umich.edu">lukeyang@umich.edu</a></p>
-            </div>
-        </div>
-        
-        <div class="links">
-            <a href="/about.html">about me</a>
-            <a href="/contact.html">contact</a>
-            <a href="Resume_0.pdf" target="_blank" rel="noopener noreferrer">resume</a>
-        </div>
-        
+    <link
+      rel="shortcut icon"
+      type="image/jpg"
+      href="./images/blockm-icon.png"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/index.css" />
+  </head>
+  <body>
+    <div class="sidenav">
+      <a id="nav-button" href="./index.html" draggable="false">Home</a>
+      <a id="nav-button" href="./about.html" draggable="false">About</a>
+      <a id="nav-button" href="./contact.html" draggable="false">Contact</a>
+      <a id="nav-button" href="./projects.html" draggable="false">Projects</a>
+      <a
+        href="./images/resume.pdf"
+        target="_blank"
+        class="sidenav-button resume-button"
+      >
+        <img src="./images/resume-icon.svg" />
+        <span class="button-text">Resume</span>
+      </a>
     </div>
-    <!-- BELOW HEADER TEXT -->
-    <div style="padding-left:40px; height:300px; padding-top: 20px">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos magni fugit id qui alias dolores in consequuntur. Quam, temporibus nemo pariatur incidunt dignissimos porro blanditiis rerum eum quidem molestiae libero.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur, esse temporibus non eius quidem veniam explicabo similique aliquid aut hic autem eligendi praesentium dolorum eaque vero, molestiae vel dolores commodi.</p>
-        <a href="https://www.linkedin.com/in/luke-yang-b939a8226/">Linkedin</a>
-        <a href="https://github.com/lukeyang01">Github</a>
+
+    <div class="main">
+      <div class="row1 col3">
+        <img
+          class="pfp"
+          src="./images/profile.jpeg"
+          alt="profile picture"
+          draggable="false"
+        />
+      </div>
+      <div class="row2 col3">
+        <h1>Luke Yang</h1>
+        <h2>Web Designer</h2>
+        <h3>CS at the University of Michigan</h3>
+      </div>
+      <div class="row3 col3 socials-box">
+        <a
+          class="linkedin-icon"
+          href="https://www.linkedin.com/in/luke-yang-b939a8226/"
+          target="_blank"
+        >
+          <img
+            src="./images/linkedin-icon.svg"
+            alt="Linkedin url"
+            draggable="false"
+        /></a>
+        <a
+          class="github-icon"
+          href="https://github.com/lukeyang01/"
+          target="_blank"
+        >
+          <img
+            src="./images/github-icon.svg"
+            alt="Github url"
+            draggable="false"
+        /></a>
+      </div>
+      <div class="row4 col3">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam quis,
+        accusamus, quia dolorum mollitia sit nihil odit eveniet minima atque
+        fugit deleniti doloribus consectetur adipisci earum eaque nisi culpa
+        aliquam!
+      </div>
     </div>
-</body>
+  </body>
 </html>
